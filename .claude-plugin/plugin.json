@@ -1,0 +1,31 @@
+{
+  "name": "hubs",
+  "version": "0.0.1",
+  "description": "Claude Code configurations hub including Serena MCP for semantic code operations, symbol manipulation, and project memory",
+  "author": {
+    "name": "ZhuMon",
+    "url": "https://github.com/ZhuMon"
+  },
+  "repository": "https://github.com/ZhuMon/claude-code-hubs",
+  "license": "MIT",
+  "keywords": [
+    "serena",
+    "mcp",
+    "semantic-code",
+    "symbol-operations",
+    "project-memory"
+  ],
+  "mcpServers": {
+    "serena": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena",
+        "start-mcp-server",
+        "--context",
+        "ide-assistant"
+      ]
+    }
+  }
+}
