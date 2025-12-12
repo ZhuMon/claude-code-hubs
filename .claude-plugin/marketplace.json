@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "hubs",
-      "source": "self",
+      "source": "./",
       "description": "Claude Code configurations hub with MCP servers, slash commands, and skills"
     }
   ]
