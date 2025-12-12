@@ -1,15 +1,13 @@
 {
   "name": "zhumon-hubs",
-  "description": "ZhuMon's Claude Code plugin hub",
-  "plugins": {
-    "hubs": {
-      "versions": {
-        "latest": {
-          "source": {
-            "source": "self"
-          }
-        }
-      }
+  "owner": {
+    "name": "ZhuMon"
+  },
+  "plugins": [
+    {
+      "name": "hubs",
+      "source": "self",
+      "description": "Claude Code configurations hub with MCP servers, slash commands, and skills"
     }
-  }
+  ]
 }

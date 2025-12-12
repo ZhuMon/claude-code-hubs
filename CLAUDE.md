@@ -31,7 +31,7 @@ The `marketplace.json` uses `"latest"` and automatically picks up the version fr
 
 在 Claude Code 內執行：
 ```
-/plugins marketplace add github:ZhuMon/claude-code-hubs
+/plugins marketplace add ZhuMon/claude-code-hubs
 /plugins enable hubs@zhumon-hubs
 ```
 
