@@ -5,9 +5,14 @@
   },
   "plugins": [
     {
-      "name": "hubs",
-      "source": "./",
-      "description": "Claude Code configurations hub with MCP servers, slash commands, and skills"
+      "name": "serena",
+      "source": "./plugins/serena",
+      "description": "Serena MCP for semantic code operations, symbol manipulation, and project memory"
+    },
+    {
+      "name": "commit",
+      "source": "./plugins/commit",
+      "description": "Smart git commit with conventional commits format"
     }
   ]
 }

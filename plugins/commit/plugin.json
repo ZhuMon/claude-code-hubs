@@ -1,0 +1,16 @@
+{
+  "name": "commit",
+  "version": "0.0.1",
+  "description": "Smart git commit with conventional commits format, staged file detection, and multi-concern split suggestions",
+  "author": {
+    "name": "ZhuMon",
+    "url": "https://github.com/ZhuMon"
+  },
+  "repository": "https://github.com/ZhuMon/claude-code-hubs",
+  "license": "MIT",
+  "keywords": [
+    "commit",
+    "conventional-commits",
+    "git"
+  ]
+}

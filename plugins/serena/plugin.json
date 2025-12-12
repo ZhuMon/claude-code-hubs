@@ -1,7 +1,7 @@
 {
-  "name": "hubs",
-  "version": "0.0.2",
-  "description": "Claude Code configurations hub including Serena MCP for semantic code operations and commit skill for conventional commits",
+  "name": "serena",
+  "version": "0.0.1",
+  "description": "Serena MCP for semantic code operations, symbol manipulation, and project memory",
   "author": {
     "name": "ZhuMon",
     "url": "https://github.com/ZhuMon"
@@ -13,9 +13,7 @@
     "mcp",
     "semantic-code",
     "symbol-operations",
-    "project-memory",
-    "commit",
-    "conventional-commits"
+    "project-memory"
   ],
   "mcpServers": {
     "serena": {
