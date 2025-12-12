@@ -29,13 +29,15 @@ The `marketplace.json` uses `"latest"` and automatically picks up the version fr
 
 ## Installation
 
-```bash
-claude plugins:install github:ZhuMon/claude-code-hubs
-claude plugins:enable hubs@zhumon-hubs
+在 Claude Code 內執行：
+```
+/plugins marketplace add github:ZhuMon/claude-code-hubs
+/plugins enable hubs@zhumon-hubs
 ```
 
 ## Local Development
 
-```bash
-claude plugins:link /path/to/claude-code-hubs
+在 Claude Code 內執行：
+```
+/plugins link /path/to/claude-code-hubs
 ```
