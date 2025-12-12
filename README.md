@@ -4,8 +4,10 @@ A Claude Code plugin repository containing MCP server configurations, custom sla
 
 ## Installation
 
-```bash
-claude plugins:install github:ZhuMon/claude-code-hubs
+Run in Claude Code:
+```
+/plugins marketplace add ZhuMon/claude-code-hubs
+/plugins enable hubs@zhumon-hubs
 ```
 
 ## Features
@@ -43,10 +45,9 @@ After installation:
 
 ## Development
 
-Test locally:
-
-```bash
-claude plugins:link /path/to/claude-code-hubs
+Run in Claude Code:
+```
+/plugins link /path/to/claude-code-hubs
 ```
 
 ## License
