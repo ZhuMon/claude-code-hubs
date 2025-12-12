@@ -1,0 +1,15 @@
+{
+  "name": "zhumon-hubs",
+  "description": "ZhuMon's Claude Code plugin hub",
+  "plugins": {
+    "hubs": {
+      "versions": {
+        "0.0.1": {
+          "source": {
+            "source": "self"
+          }
+        }
+      }
+    }
+  }
+}
