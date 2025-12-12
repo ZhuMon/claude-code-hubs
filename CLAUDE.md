@@ -23,6 +23,8 @@ The `marketplace.json` uses `"latest"` and automatically picks up the version fr
 
 - `commands/` - Slash commands (`.md` files, use `$ARGUMENTS` for input)
 - `skills/` - Skill definitions
+  - `serena/` - Serena MCP usage guide
+  - `commit/` - Git commit with conventional commits (no emoji)
 - `mcp-configs/` - Backup MCP server configurations for quick restoration
 - `.claude-plugin/plugin.json` - Plugin manifest (version, MCP servers)
 - `.claude-plugin/marketplace.json` - Marketplace definition

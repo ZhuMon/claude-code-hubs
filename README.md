@@ -21,6 +21,7 @@ This plugin automatically configures:
 ### Skills
 
 - **serena** - Usage guide for Serena MCP operations
+- **commit** - Smart git commit with conventional commits format (no emoji), staged file detection, and multi-concern split suggestions
 
 ## Contents
 
@@ -29,7 +30,8 @@ claude-code-hubs/
 ├── .claude-plugin/
 │   └── plugin.json      # Plugin manifest with MCP server configs
 ├── skills/
-│   └── serena/          # Serena usage skill
+│   ├── serena/          # Serena usage skill
+│   └── commit/          # Git commit skill
 ├── commands/            # Custom slash commands
 ├── hooks/               # Hook configurations
 └── settings/            # Configuration files
