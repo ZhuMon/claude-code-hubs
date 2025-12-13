@@ -1,6 +1,6 @@
 {
   "name": "serena",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Serena MCP for semantic code operations, symbol manipulation, and project memory",
   "author": {
     "name": "ZhuMon",
@@ -24,9 +24,7 @@
         "serena",
         "start-mcp-server",
         "--context",
-        "ide-assistant",
-        "--enable-web-dashboard",
-        "false"
+        "ide-assistant"
       ]
     }
   }

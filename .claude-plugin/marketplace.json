@@ -1,18 +1,35 @@
 {
   "name": "zhumon-hubs",
   "owner": {
-    "name": "ZhuMon"
+    "name": "ZhuMon",
+    "url": "https://github.com/ZhuMon"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for semantic code operations and smart commits",
+    "version": "0.0.1"
   },
   "plugins": [
     {
       "name": "serena",
       "source": "./plugins/serena",
-      "description": "Serena MCP for semantic code operations, symbol manipulation, and project memory"
+      "description": "Serena MCP for semantic code operations, symbol manipulation, and project memory",
+      "version": "0.0.3",
+      "author": {
+        "name": "ZhuMon",
+        "url": "https://github.com/ZhuMon"
+      },
+      "keywords": ["serena", "mcp", "semantic-code", "symbol-operations", "project-memory"]
     },
     {
       "name": "commit",
       "source": "./plugins/commit",
-      "description": "Smart git commit with conventional commits format"
+      "description": "Smart git commit with conventional commits format, staged file detection, and multi-concern split suggestions",
+      "version": "0.0.1",
+      "author": {
+        "name": "ZhuMon",
+        "url": "https://github.com/ZhuMon"
+      },
+      "keywords": ["commit", "conventional-commits", "git"]
     }
   ]
 }
