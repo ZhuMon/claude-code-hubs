@@ -5,8 +5,8 @@
     "url": "https://github.com/ZhuMon"
   },
   "metadata": {
-    "description": "Claude Code plugins for semantic code operations and smart commits",
-    "version": "0.0.1"
+    "description": "Claude Code plugins for semantic code operations, smart commits, and MCP servers",
+    "version": "0.0.2"
   },
   "plugins": [
     {
@@ -30,6 +30,39 @@
         "url": "https://github.com/ZhuMon"
       },
       "keywords": ["commit", "conventional-commits", "git"]
+    },
+    {
+      "name": "aws-doc",
+      "source": "./plugins/aws-doc",
+      "description": "AWS Documentation MCP server for searching and reading AWS documentation",
+      "version": "0.0.1",
+      "author": {
+        "name": "ZhuMon",
+        "url": "https://github.com/ZhuMon"
+      },
+      "keywords": ["aws", "documentation", "mcp"]
+    },
+    {
+      "name": "atlassian",
+      "source": "./plugins/atlassian",
+      "description": "Atlassian MCP server for Jira and Confluence integration",
+      "version": "0.0.1",
+      "author": {
+        "name": "ZhuMon",
+        "url": "https://github.com/ZhuMon"
+      },
+      "keywords": ["atlassian", "jira", "confluence", "mcp"]
+    },
+    {
+      "name": "langfuse-docs",
+      "source": "./plugins/langfuse-docs",
+      "description": "Langfuse Documentation MCP server for LLM observability platform docs",
+      "version": "0.0.1",
+      "author": {
+        "name": "ZhuMon",
+        "url": "https://github.com/ZhuMon"
+      },
+      "keywords": ["langfuse", "documentation", "llm", "observability", "mcp"]
     }
   ]
 }
