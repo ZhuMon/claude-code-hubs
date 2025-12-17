@@ -1,0 +1,26 @@
+{
+  "name": "aws-doc",
+  "version": "0.0.1",
+  "description": "AWS Documentation MCP server for searching and reading AWS documentation",
+  "author": {
+    "name": "ZhuMon",
+    "url": "https://github.com/ZhuMon"
+  },
+  "repository": "https://github.com/ZhuMon/claude-code-hubs",
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "documentation",
+    "mcp"
+  ],
+  "mcpServers": {
+    "aws-doc": {
+      "command": "uvx",
+      "args": ["awslabs.aws-documentation-mcp-server@latest"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR",
+        "AWS_DOCUMENTATION_PARTITION": "aws"
+      }
+    }
+  }
+}

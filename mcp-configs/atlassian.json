@@ -1,6 +1,0 @@
-{
-  "atlassian": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote@0.1.13", "https://mcp.atlassian.com/v1/sse"]
-  }
-}

@@ -23,15 +23,12 @@ Claude Code plugin marketplace containing multiple plugins with MCP server confi
 claude-code-hubs/
 ├── .claude-plugin/
 │   └── marketplace.json          # Marketplace definition
-├── plugins/
-│   ├── serena/                   # Serena plugin
-│   │   ├── plugin.json
-│   │   └── skills/serena/
-│   └── commit/                   # Commit plugin
-│       ├── plugin.json
-│       └── skills/commit/
-├── commands/                     # Shared slash commands
-└── mcp-configs/                  # Backup MCP configs
+└── plugins/
+    ├── serena/                   # Serena MCP + skill
+    ├── commit/                   # Commit skill
+    ├── aws-doc/                  # AWS Documentation MCP
+    ├── atlassian/                # Atlassian (Jira/Confluence) MCP
+    └── langfuse-docs/            # Langfuse Documentation MCP
 ```
 
 ## Installation
@@ -39,8 +36,15 @@ claude-code-hubs/
 在 Claude Code 內執行：
 ```
 /plugins marketplace add ZhuMon/claude-code-hubs
-/plugins enable serena@zhumon-hubs    # Serena MCP + skill
-/plugins enable commit@zhumon-hubs    # Commit skill
+
+# Skills
+/plugins enable serena@zhumon-hubs        # Serena MCP + skill
+/plugins enable commit@zhumon-hubs        # Commit skill
+
+# MCP Servers (按需啟用)
+/plugins enable aws-doc@zhumon-hubs       # AWS Documentation
+/plugins enable atlassian@zhumon-hubs     # Jira/Confluence
+/plugins enable langfuse-docs@zhumon-hubs # Langfuse Documentation
 ```
 
 ## Local Development

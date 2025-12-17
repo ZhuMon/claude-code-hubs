@@ -1,0 +1,23 @@
+{
+  "name": "atlassian",
+  "version": "0.0.1",
+  "description": "Atlassian MCP server for Jira and Confluence integration",
+  "author": {
+    "name": "ZhuMon",
+    "url": "https://github.com/ZhuMon"
+  },
+  "repository": "https://github.com/ZhuMon/claude-code-hubs",
+  "license": "MIT",
+  "keywords": [
+    "atlassian",
+    "jira",
+    "confluence",
+    "mcp"
+  ],
+  "mcpServers": {
+    "atlassian": {
+      "type": "sse",
+      "url": "https://mcp.atlassian.com/v1/sse"
+    }
+  }
+}
