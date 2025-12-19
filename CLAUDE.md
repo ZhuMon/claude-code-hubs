@@ -28,7 +28,8 @@ claude-code-hubs/
     ├── commit/                   # Commit skill
     ├── aws-doc/                  # AWS Documentation MCP
     ├── atlassian/                # Atlassian (Jira/Confluence) MCP
-    └── langfuse-docs/            # Langfuse Documentation MCP
+    ├── langfuse-docs/            # Langfuse Documentation MCP
+    └── langchain-docs/           # LangChain Documentation MCP
 ```
 
 ## Installation
@@ -45,6 +46,7 @@ claude-code-hubs/
 /plugins enable aws-doc@zhumon-hubs       # AWS Documentation
 /plugins enable atlassian@zhumon-hubs     # Jira/Confluence
 /plugins enable langfuse-docs@zhumon-hubs # Langfuse Documentation
+/plugins enable langchain-docs@zhumon-hubs # LangChain Documentation
 ```
 
 ## Local Development

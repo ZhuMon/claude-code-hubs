@@ -63,6 +63,17 @@
         "url": "https://github.com/ZhuMon"
       },
       "keywords": ["langfuse", "documentation", "llm", "observability", "mcp"]
+    },
+    {
+      "name": "langchain-docs",
+      "source": "./plugins/langchain-docs",
+      "description": "LangChain Documentation MCP server for querying LangChain, LangGraph, and LangSmith docs",
+      "version": "0.0.1",
+      "author": {
+        "name": "ZhuMon",
+        "url": "https://github.com/ZhuMon"
+      },
+      "keywords": ["langchain", "langgraph", "langsmith", "documentation", "mcp"]
     }
   ]
 }

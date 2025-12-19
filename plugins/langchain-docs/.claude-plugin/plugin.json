@@ -1,0 +1,24 @@
+{
+  "name": "langchain-docs",
+  "version": "0.0.1",
+  "description": "LangChain Documentation MCP server for querying LangChain, LangGraph, and LangSmith docs",
+  "author": {
+    "name": "ZhuMon",
+    "url": "https://github.com/ZhuMon"
+  },
+  "repository": "https://github.com/ZhuMon/claude-code-hubs",
+  "license": "MIT",
+  "keywords": [
+    "langchain",
+    "langgraph",
+    "langsmith",
+    "documentation",
+    "mcp"
+  ],
+  "mcpServers": {
+    "langchain-docs": {
+      "type": "http",
+      "url": "https://docs.langchain.com/mcp"
+    }
+  }
+}
