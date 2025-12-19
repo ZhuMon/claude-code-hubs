@@ -100,7 +100,7 @@ Closes #123
 ```
 
 ### Breaking Changes
-Use `!` after type and explain in body:
+Add exclamation mark (!) after type for breaking changes:
 ```
 feat!: change API response format
 

@@ -24,7 +24,7 @@
       "name": "commit",
       "source": "./plugins/commit",
       "description": "Smart git commit with conventional commits format, staged file detection, and multi-concern split suggestions",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "author": {
         "name": "ZhuMon",
         "url": "https://github.com/ZhuMon"
